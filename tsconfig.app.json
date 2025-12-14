@@ -25,7 +25,18 @@
     "noUncheckedSideEffectImports": true,
 
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"],
+      "@/components/*": ["components/*"],
+      "@/styles/*": ["styles/*"],
+      "@/hooks/*": ["hooks/*"],
+      "@/apis/*": ["apis/*"],
+      "@/types/*": ["types/*"],
+      "@/utils/*": ["utils/*"],
+      "@/assets/*": ["assets/*"]
+    }
   },
   "include": ["src"]
 }
